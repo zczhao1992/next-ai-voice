@@ -3,7 +3,7 @@
 import React, { useEffect, useState, useRef } from "react";
 import Image from "next/image";
 import { api } from "@/convex/_generated/api";
-import { CoachingExpert } from "@/services/options";
+import { CoachingExpert } from "@/services/Options";
 import { useQuery } from "convex/react";
 import { useParams } from "next/navigation";
 import { UserButton } from "@stackframe/stack";
